@@ -21,8 +21,7 @@ public class Practice2 {
 
         System.out.println("=========");
 
-        Iterator<Integer> numIterator = numList.iterator();
-        while (numIterator.hasNext()) {
+        for (Iterator<Integer> numIterator = numList.iterator(); numIterator.hasNext();) {
             System.out.println(numIterator.next());
         }
     }
